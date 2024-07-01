@@ -12,17 +12,18 @@
     <div class="container">
       <h1>World Clock</h1>
 
-      <select>
+      <select id="city">
         <option value="">Select a city..</option>
-        <option value="">Brussles</option>
-        <option value="">Paris</option>
-        <option value="">Barcelona</option>
-        <option value="">Frankfurt</option>
+        <option value="Europe/Brussels">Brussles BE</option>
+        <option value="Europe/Paris">Paris FR</option>
+        <option value="Europe/Prague">Prague CZ</option>
+        <option value="Europe/London">London UK</option>
       </select>
 
-      <div class="city" id="rotterdam">
+     <div id="cities">
+      <div class="city" id="amsterdam">
         <div>
-          <h2>Rotterdam NL</h2>
+          <h2>Amsterdam NL</h2>
           <div class="date"></div>
         </div>
         <div class="time"></div>
@@ -34,6 +35,7 @@
         </div>
         <div class="time"></div>
       </div>
+    </div>
     </div>
     <footer>
       This project was coded by
